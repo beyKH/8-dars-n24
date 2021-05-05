@@ -1,0 +1,169 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Rubik','Arial',sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+
+}
+.container{
+  margin:0 auto ;
+  padding-left:30px ;
+  padding-right: 30px;
+  max-width: 1200px;
+}
+
+.main-content{
+  display: flex;
+  margin-top: 50px;
+}
+
+.latest-news{
+  width: 780px;
+
+
+}
+
+.latest-news-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-news-list-item{
+  margin-bottom: 20px;
+}
+.latest-news-list-item-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.news-img{
+  border-radius: 5px;
+  display: block;
+  margin-right: 20px;
+}
+
+.news-item-description {
+  width: 512px;
+}
+
+.latest-news-heading{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.news-item-heading{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.news-item-description{
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+
+
+.news-item-calendar {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #7688A4;
+}
+
+
+/* popular news */
+.main-right{
+margin-left: 30px;
+}
+
+.popular-news{
+  background: #F6F6F9;
+  border-radius: 5px;
+  padding:15px 20px;
+  width: 385px;
+}
+
+.popular-news-heading{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.popular-news-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.popular-news-list-item-link {
+  text-decoration: none;
+
+}
+.popular-news-list-item-info{
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.popular-news-list-item{
+  border-bottom: 4px solid #E4E4E4;
+  padding-bottom: 14px;
+
+}
+
+.popular-news-list-item:last-child{
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+.popular-news-list-item-time{
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #7688A4;
+
+}
+
+
+.ads-site{
+  margin-top: 20px;
+}
+
+.link-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.link-view-more{
+  display: inline-block;
+  background: #295093;
+  border-radius: 5px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding: 10px 32px;
+  text-decoration: none;
+
+
+}
