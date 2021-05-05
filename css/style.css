@@ -30,13 +30,18 @@ body{
 background-color:#F6F6F9;
 display: flex;
 border-radius: 5px;
-padding-left: 35px;
-padding-right: 35px;
+justify-content: center;
 }
-
+.covid-content{
+  padding-top: 50px;
+}
 .covid-description{
   display: flex;
   align-items: center;
+
+
+
+
 }
 
 .covid-heading{
@@ -45,20 +50,27 @@ padding-right: 35px;
   font-size: 20px;
   line-height: 24px;
   margin-left: 25px;
+
+
 }
 
 .covid-list{
   list-style: none;
   display: flex;
-  margin-left: auto;
-
-}
-.covid-list-item{
+  margin-left: 60PX;
   border-left: 2px solid #EB5569;
+  padding: 0;
+}
+
+.covid-list-item{
   display: flex;
   align-items: center;
-  margin-right: 40px;
 
+  border-right: 2px#F4CCD1 solid;
+
+}
+.covid-list-item:last-child{
+  border-right: none;
 }
 
 .covid-list-item-img{
@@ -66,7 +78,8 @@ padding-right: 35px;
     margin-left: 30px;
 }
 .covid-list-item-description{
-  margin-left: 18px;
+  margin-left: 20px;
+  margin-right:40px;
 }
 
 .covid-list-item-description-text-1{
@@ -114,11 +127,13 @@ padding-right: 35px;
 .active-list-item{
   width: 385px;
   margin-left: 20px;
+  margin-bottom: 18px;
 
 }
 
 .active-list-item-link{
   text-decoration: none;
+
 }
 .active-list-item-img{
   border-radius: 5px;
@@ -139,6 +154,9 @@ padding-right: 35px;
   line-height: 17px;
   color: #6B6D97;
 }
+
+
+
 /* latest popular content */
 .latest-popular-content {
   display: flex;
@@ -209,6 +227,9 @@ padding-right: 35px;
 /* popular news */
 .main-right{
 margin-left: 30px;
+/* display: flex; */
+justify-content: space-between;
+
 }
 
 .popular-news{
@@ -216,6 +237,7 @@ margin-left: 30px;
   border-radius: 5px;
   padding:15px 20px;
   width: 385px;
+
 }
 
 .popular-news-heading{
@@ -232,9 +254,12 @@ margin-left: 30px;
   padding: 0;
 
 }
-
+.popular-news-list-item{
+  margin-bottom: 18px;
+}
 .popular-news-list-item-link {
   text-decoration: none;
+
 
 }
 .popular-news-list-item-info{
@@ -242,7 +267,7 @@ margin-left: 30px;
   line-height: 20px;
   color: #202020;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .popular-news-list-item{
@@ -266,6 +291,11 @@ margin-left: 30px;
 
 .ads-site{
   margin-top: 20px;
+
+}
+
+.ads-site-img{
+  display: block;
 }
 
 .link-container{
