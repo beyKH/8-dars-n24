@@ -11,19 +11,138 @@ body{
   font-family: 'Rubik','Arial',sans-serif;
   font-size: 15px;
   line-height: 17px;
-
+  margin: 0;
+  padding: 0;
 }
 .container{
-  margin:0 auto ;
-  padding-left:30px ;
-  padding-right: 30px;
+  box-sizing: border-box;
   max-width: 1200px;
-  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.main-content{
+
+
+/* main */
+
+/* covid section */
+.covid{
+background-color:#F6F6F9;
+display: flex;
+border-radius: 5px;
+padding-left: 35px;
+padding-right: 35px;
+}
+
+.covid-description{
+  display: flex;
+  align-items: center;
+}
+
+.covid-heading{
+  width: 230px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 25px;
+}
+
+.covid-list{
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+
+}
+.covid-list-item{
+  border-left: 2px solid #EB5569;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+
+}
+
+.covid-list-item-img{
+    display: block;
+    margin-left: 30px;
+}
+.covid-list-item-description{
+  margin-left: 18px;
+}
+
+.covid-list-item-description-text-1{
+  color: #DB0000;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.covid-list-item-description-text-2{
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #05B135;
+}
+
+
+.covid-list-item-description-text-3 {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #000;
+}
+
+.covid-list-item-description-number{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+}
+
+
+/* active secion */
+
+.active-list{
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: -20px;
+
+}
+
+.active-list-item{
+  width: 385px;
+  margin-left: 20px;
+
+}
+
+.active-list-item-link{
+  text-decoration: none;
+}
+.active-list-item-img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+.active-list-item-heading {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.active-list-item-time{
+  font-size: 14px;
+  line-height: 17px;
+  color: #6B6D97;
+}
+/* latest popular content */
+.latest-popular-content {
   display: flex;
   margin-top: 50px;
+  justify-content: space-between;
 }
 
 .latest-news{
